@@ -2,10 +2,10 @@
 {
     public enum AppName
     {
-        yoapp,
-        cgpay,
-        paytime,
-        thaili
+        local1,
+        local2,
+        local3,
+        local4
     }
 
     public enum ReponseCode
