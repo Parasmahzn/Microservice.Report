@@ -1,0 +1,12 @@
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\bin\Debug\net6.0\ReportRepository.deps.json
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\bin\Debug\net6.0\ReportRepository.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\bin\Debug\net6.0\ref\ReportRepository.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\bin\Debug\net6.0\ReportRepository.pdb
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.csproj.AssemblyReference.cache
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.AssemblyInfoInputs.cache
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.AssemblyInfo.cs
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.csproj.CoreCompileInputs.cache
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ref\ReportRepository.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\ReportRepository\obj\Debug\net6.0\ReportRepository.pdb

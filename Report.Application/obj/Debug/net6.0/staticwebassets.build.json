@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "IjL4xaJutmTVB7OCTU6Eazm8ZgfXsxh9gx3Qer2sY0k=",
+  "Source": "Report.Application",
+  "BasePath": "_content/Report.Application",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Report.Application\\wwwroot",
+      "Source": "Report.Application",
+      "ContentRoot": "D:\\Personnal\\Paras\\Trainings\\Projects\\.net6\\Microservices\\Report.Application\\wwwroot\\",
+      "BasePath": "_content/Report.Application",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

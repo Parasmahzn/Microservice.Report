@@ -1,0 +1,15 @@
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\bin\Debug\net6.0\Report.Business.deps.json
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\bin\Debug\net6.0\Report.Business.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\bin\Debug\net6.0\ref\Report.Business.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\bin\Debug\net6.0\Report.Business.pdb
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\bin\Debug\net6.0\ReportRepository.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\bin\Debug\net6.0\ReportRepository.pdb
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.csproj.AssemblyReference.cache
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.AssemblyInfoInputs.cache
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.AssemblyInfo.cs
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.csproj.CoreCompileInputs.cache
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.csproj.CopyComplete
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\ref\Report.Business.dll
+D:\Personnal\Paras\Trainings\Projects\.net6\Microservices\Report.Business\obj\Debug\net6.0\Report.Business.pdb
