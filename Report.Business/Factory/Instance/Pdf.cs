@@ -26,37 +26,31 @@ namespace Report.Business.Factory.Instance
 
             //var htmlContent = Razor.Parse(templateContent, dbResp);
 
-            #region PDF 
-
             var result = new HttpResponseMessage(System.Net.HttpStatusCode.OK);
-            Byte[] bytes = null;
+            Byte[] bytes;
             using (var ms = new MemoryStream())
             {
                 using (var doc = new Document(iTextSharp.text.PageSize.A4, 10, 10, 20, 10))
                 {
-                    using (var writer = PdfWriter.GetInstance(doc, ms))
+                    using var writer = PdfWriter.GetInstance(doc, ms);
+                    doc.Open();
+                    try
                     {
-                        doc.Open();
-                        try
-                        {
-                            var html = templateContent;
+                        var html = templateContent;
 
-                            using (var msHtml = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(html)))
-                            {
+                        using var msHtml = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(html));
 
-                                XMLWorkerHelper.GetInstance().ParseXHtml(writer, doc, msHtml, System.Text.Encoding.UTF8);
-                            }
-                        }
-                        catch (Exception ex)
-                        {
+                        XMLWorkerHelper.GetInstance().ParseXHtml(writer, doc, msHtml, System.Text.Encoding.UTF8);
+                    }
+                    catch (Exception ex)
+                    {
 
-                            throw ex;
-                        }
+                        throw;
+                    }
 
-                        finally
-                        {
-                            doc.Close();
-                        }
+                    finally
+                    {
+                        doc.Close();
                     }
                 }
                 bytes = ms.ToArray();
@@ -66,12 +60,10 @@ namespace Report.Business.Factory.Instance
             result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
             result.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment")
             {
-                FileName = "Report " + DateTime.Now.ToString() + ".pdf"
-
+                FileName = downloadData.AppName + DateTime.Now.ToString() + ".pdf"
             };
 
             return result;
-            #endregion
 
         }
     }

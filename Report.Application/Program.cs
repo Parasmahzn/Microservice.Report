@@ -11,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddTransient<Resolver>(factory => var =>
     {
         return var switch
@@ -24,6 +25,7 @@ builder.Services.AddTransient<Resolver>(factory => var =>
 builder.Services.AddTransient<Pdf>();
 builder.Services.AddTransient<Excel>();
 builder.Services.AddScoped<IService, Service>();
+builder.Services.AddMvc().AddWebApiConventions();
 
 var app = builder.Build();
 
