@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Extensions\" />
+    <Folder Include="wwwroot\" />
     <Folder Include="wwwroot\mypay\" />
     <Folder Include="wwwroot\mypay\images\" />
     <Folder Include="wwwroot\yoapp\images\" />
