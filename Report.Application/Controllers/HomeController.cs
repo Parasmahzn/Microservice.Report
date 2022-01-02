@@ -28,6 +28,5 @@ namespace Report.Service.Controllers
             else
                 return new HttpResponseMessage(System.Net.HttpStatusCode.NoContent);
         }
-
     }
 }
